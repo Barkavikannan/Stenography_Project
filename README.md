@@ -36,3 +36,12 @@ git clone https://github.com/your-username/steganography-project.git
 cd steganography-project
 pip install -r requirements.txt
 python steganography.py
+
+🚀 Future Enhancements
+✅ Advanced Encoding Techniques
+✅ Support for Large Messages
+✅ GUI Integration
+
+📬 Contact
+🌐 Mail Id : barkavikannan951@gmail.com
+
