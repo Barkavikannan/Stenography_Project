@@ -31,6 +31,13 @@ This project demonstrates **image-based steganography**, where a secret text mes
 | ![Original](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\mypicture.jpg) | ![Encrypted](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\encryptedImage.jpg) |  
 
 
+## 🔗 Installation & Setup  
+```bash
+git clone https://github.com/your-username/steganography-project.git
+cd steganography-project
+pip install -r requirements.txt
+python steganography.py
+
 
 
 🚀 Future Enhancements
