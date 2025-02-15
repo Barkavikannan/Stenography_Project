@@ -28,7 +28,7 @@ This project demonstrates **image-based steganography**, where a secret text mes
 ## 📸 Screenshots  
 | Original Image | Encrypted Image |  
 |---------------|----------------|  
-| ![Original](images/original.jpg) | ![Encrypted](images/encrypted.jpg) |  
+| ![Original](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\mypicture.jpg) | ![Encrypted](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\encryptedImage.jpg) |  
 
 ## 🔗 Installation & Setup  
 ```bash
