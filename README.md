@@ -1,17 +1,38 @@
 # 🖼️ Steganography Project - Image-Based Message Hiding  
 
 ## 📌 Project Overview  
-This project demonstrates **image-based steganography**, where a secret text message is embedded into an image and retrieved only with a **passcode**. Unlike cryptography, which encrypts messages, steganography **hides the existence of the message**, making it a powerful tool for **secure communication** and **data protection**.  
+This project demonstrates **image-based steganography**, where a secret text message is embedded into an image and retrieved using a **passcode**.  
 
 ## 🚀 Features  
-✅ **Invisible Message Embedding:** Hides text within image pixels without altering the image's appearance.  
-✅ **Passcode Protection:** Only users with the correct passcode can retrieve the hidden message.  
-✅ **Efficient Encoding & Decoding:** Uses **ASCII mapping and pixel manipulation** for secure data storage.  
-✅ **Undetectable Data Alterations:** Minimal pixel changes ensure that the hidden message remains unnoticed.  
+✅ **Message Hiding in Image Pixels**  
+✅ **Passcode-Protected Message Retrieval**  
+✅ **Minimal Image Alterations**  
 
 ## 🔧 Technologies Used  
-- **Programming Language:** Python  
-- **Libraries:** OpenCV, OS  
-- **Concepts:** ASCII Encoding, Pixel Manipulation  
+- **Python**  
+- **OpenCV (cv2)**  
 
-## 📂 Project Structure  
+## 🛠️ How It Works  
+### 🔒 **Encoding (Hiding the Message)**  
+1️⃣ Load an image using OpenCV  
+2️⃣ Convert text to ASCII values  
+3️⃣ Embed ASCII values into **RGB pixel values**  
+4️⃣ Save the modified image  
+
+### 🔓 **Decoding (Retrieving the Message)**  
+1️⃣ Load the encrypted image  
+2️⃣ Extract ASCII values from pixels  
+3️⃣ Convert ASCII values back to text  
+4️⃣ Verify the **passcode** before displaying the message  
+
+## 📸 Screenshots  
+| Original Image | Encrypted Image |  
+|---------------|----------------|  
+| ![Original](images/original.jpg) | ![Encrypted](images/encrypted.jpg) |  
+
+## 🔗 Installation & Setup  
+```bash
+git clone https://github.com/your-username/steganography-project.git
+cd steganography-project
+pip install -r requirements.txt
+python steganography.py
