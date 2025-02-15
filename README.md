@@ -33,13 +33,13 @@ This project demonstrates **image-based steganography**, where a secret text mes
 
 
 
-##🚀 Future Enhancements
+🚀 Future Enhancements
 
 ✅ Advanced Encoding Techniques
 ✅ Support for Large Messages
 ✅ GUI Integration
 
 
-##📬 Contact
+📬 Contact
 🌐 Mail Id : barkavikannan951@gmail.com
 
