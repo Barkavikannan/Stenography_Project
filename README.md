@@ -31,11 +31,15 @@ This project demonstrates **image-based steganography**, where a secret text mes
 | ![Original](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\mypicture.jpg) | ![Encrypted](C:\Users\ramac\OneDrive\Documents\Cybersecurity_Project\images\encryptedImage.jpg) |  
 
 
-🚀 Future Enhancements
+
+
+##🚀 Future Enhancements
+
 ✅ Advanced Encoding Techniques
 ✅ Support for Large Messages
 ✅ GUI Integration
 
-📬 Contact
+
+##📬 Contact
 🌐 Mail Id : barkavikannan951@gmail.com
 
